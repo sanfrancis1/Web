@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Find Hotels</title>
+<link rel="stylesheet" href="home_css.css">
+
+</head>
+<body>
+
+
+<div class="button_box2">
+<form class="form-wrapper-2" onload>
+<input type="text"  class ="searchValueClass" id="searchValue" placeholder="Search the city name" required>
+
+<input type="button" class= "button" value = "Search" onclick="getValue()"/>
+
+<input type="reset" class= "button" value = "Clear" onclick="clearValue()"/>
+
+<select class="pincodeSelect" id="dynamic-select">
+<option>Please Pincode</option>
+</select>
+
+
+<select class="pincodeSelect" id="dynamic-select1">
+<option>Please Type</option>
+</select>
+
+</form>
+</div>
+
+<div class="button_box2" id="resultValue"> </div> 
+</body>
+<script src="home_js.js"></script>
+</html>
+

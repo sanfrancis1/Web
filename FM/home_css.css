@@ -1,0 +1,51 @@
+/* search box */
+
+.button_box2 {
+width:500px; 
+margin-left:auto;
+margin-right:auto;
+margin:100px auto;
+}
+
+
+.result
+{
+   width: 530px;
+   height: auto;
+   margin:10px auto;
+   background: #555;
+}
+
+
+.searchValueClass {
+width: 310px;
+height: 20px;
+padding: 10px 5px;
+float: left;
+font: bold 15px 'Raleway', sans-serif;
+border: 0;
+background-color: #eee;
+
+border-radius: 3px 0 0 3px;
+}
+
+.pincodeSelect
+{
+width:150px; 
+margin-left:auto;
+margin-right:auto;
+margin:20px auto;
+
+}
+
+.button {
+  background-color: #4CAF50;
+  color: white;
+  margin-left: 3px;
+  padding: 10px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
